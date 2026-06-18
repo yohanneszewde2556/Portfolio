@@ -1319,16 +1319,29 @@ section {
         padding: 0 1.25rem;
     }
 
+    .hero {
+        padding: 5rem 1rem 3rem;
+    }
+
+    .hero-content {
+        padding: 0 0.5rem;
+    }
+
     .hero-name {
-        font-size: 3.5rem;
+        font-size: 2.2rem;
+        white-space: normal;
+        word-wrap: break-word;
+        hyphens: auto;
     }
 
     .hero-greeting {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     .hero-subtitle {
-        font-size: 0.95rem;
+        font-size: 0.9rem;
+        padding: 0 0.5rem;
+        word-wrap: break-word;
     }
 
     .section-title {
